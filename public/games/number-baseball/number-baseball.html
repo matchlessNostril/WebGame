@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>숫자야구게임</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="number-baseball.css">
+    </head>
+    <body>
+        <div id="movingSky" class="z"></div>    
+        <div id="display" class="z"></div>
+        <div id="game" class="z">
+            <div class="top">
+                <h1>숫자 야구 게임</h1>
+                <img src="./images/baseball-ball.png">
+            </div>
+            <div class="container">
+                <div class="item">
+                    <form id="form">
+                        <input type="text" id="input" autocomplete="off">
+                        <button>
+                            입력
+                            <span></span><span></span><span></span><span></span>
+                        </button>
+                    </form>
+                    <div id="logs">
+                        <p id="explain">
+                            각 자리의 숫자가 다른 총 4자리 숫자를 맞춰주세요!<br>
+                            숫자와 순서가 맞으면 스트라이크,<br>
+                            숫자만 맞으면 볼,<br>
+                            둘 다 틀리면 아웃으로 기록이 나타납니다.<br>
+                            기회는 총 10번! 그럼 게임 스타트-!
+                        </p>
+                        <div id="leftLogs"></div>
+                        <div id="rightLogs"></div>
+                    </div>
+                    <div id="resultLog"></div>
+                </div>
+            </div>
+        </div>
+        <script src="number-baseball.js"></script>
+    </body> 
+</html>

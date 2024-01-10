@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'GongGothicBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes movebg {
+    0% {background-position: 0 center;}
+    100% {background-position: 100% center;}
+}
+
+body {
+    font-family: 'GongGothicBold';
+    margin: 0;
+}
+
+div.z {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div#movingSky {
+    background-image: url('./images/sky.png');
+    background-repeat: repeat-x repeat-y;
+    background-size: 516px;
+    animation: movebg 25s linear infinite; 
+    z-index: -1; 
+}
+
+div#display {
+    background-image: url('./images/display.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0; 
+}
+
+div#game {
+    z-index: 1; 
+}
+
+.top {
+    position: absolute;
+    top: 3vh;
+    left: 37vw;
+}
+
+h1 {
+    display: inline;
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 0;
+}
+
+img {
+    width: 5vw;
+    height: auto;
+}
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+input {
+    width: 20vw;
+    height: 40px;
+    margin-right: 1vw;
+    border-color: #a0a0a0;
+    border-width: 0.3vw;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    --c: #a0a0a0;
+    color: var(--c);
+    font-size: 1vw;
+    border: 0.3vw solid var(--c);
+    border-radius: 0.5vw;
+    width: 5vw;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'SDSamliphopangche_Outline';
+    letter-spacing: 0.1vw;
+    text-align: center;
+    line-height: 3vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin-top: 2px;
+}
+
+button span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+}
+
+button:hover span {
+    transform: translateY(0) scale(2);
+}
+
+button span:nth-child(1) {
+    --n: 1;
+}
+
+button span:nth-child(2) {
+    --n: 2;
+}
+
+button span:nth-child(3) {
+    --n: 3;
+}
+
+button span:nth-child(4) {
+    --n: 4;
+}
+
+#logs {
+    font-size: 0.75vw;
+    width: 100%;
+    height: 50%;
+}
+
+#leftLogs {
+    width: 50%;
+    float: left;
+}
+
+#rightLogs {
+    width: 50%;
+    float: right;
+}
+
+#resultLog {
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 1.5vh;
+}
