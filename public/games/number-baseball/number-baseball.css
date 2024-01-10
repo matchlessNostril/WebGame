@@ -22,7 +22,7 @@ div.z {
 }
 
 div#movingSky {
-    background-image: url('./images/sky.png');
+    background-image: url('./images/sky.PNG');
     background-repeat: repeat-x repeat-y;
     background-size: 516px;
     animation: movebg 25s linear infinite; 

@@ -122,7 +122,7 @@ html, body {
 .screenshot1 {
   margin-top: 2vw;
   margin-left: 1.5vw;
-  background: url('./images/planetClickScreenshot.PNG') center;
+  background: url('./images/planetClickScreenshot.png') center;
   background-size: cover;
   border: solid 1.5px;
   border-color: white;
