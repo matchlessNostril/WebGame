@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>쿵쿵따</title>
+        <link rel="stylesheet" href="word-relay.css">
+    </head>
+    <body>
+        <div id="themeColorBtns">
+            <button class="themeColorBtnGreen" value="green"></button>
+            <button class="themeColorBtnBlue" value="blue"></button>
+            <button class="themeColorBtnPurple" value="purple"></button>
+        </div>
+        <div id="game">
+            <div class="container">
+                <div class="item1">
+                    쿵쿵따
+                </div>
+                <div class="item2">
+                    <span id="order">1</span> 번째 참가자 차례
+                </div>
+                <div class="item3">
+                    제시어 : <span id="word"></span>
+                </div>
+                <div class="item4">
+                    <input type="text">
+                    <button id="inputBtn">
+                        입력
+                        <span></span><span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script>      
+            const participantNum = Number(prompt('몇 명이 참가하나요?'));
+
+            const $greenButton = document.querySelector('.themeColorBtnGreen');
+            const $blueButton = document.querySelector('.themeColorBtnBlue');
+            const $purpleButton = document.querySelector('.themeColorBtnPurple');
+            let themeColor;
+
+            if(participantNum) {
+                const $button = document.querySelector('#inputBtn');
+                const $input = document.querySelector('input');
+                const $word = document.querySelector('#word');
+                const $order = document.querySelector('#order');
+    
+                let word; // 제시어
+                let inputWord; // 현재 단어
+                let order = 1; // 순서
+    
+                const onClickButton = () => {
+                    if((inputWord.length == 3)&&((!word)||(word[word.length - 1] === inputWord[0]))) {
+                        word = inputWord;
+                        $word.textContent = word;
+                        if(order == participantNum) {
+                            order = 1;
+                            $order.textContent = 1;
+                        }
+                        else {
+                            $order.textContent = ++order;
+                        }
+                    }
+                    else {
+                        alert('올바르지 않은 입력입니다!');
+                    }
+                    $input.value = '';
+                    $input.focus();
+                };
+    
+                const onInput = (event) => { // event 매개변수를 통해 해당 이벤트에 대한 정보를 전달받음
+                    inputWord = event.target.value;
+                }
+    
+                $button.addEventListener('click', onClickButton); // 해당 태그 '클릭' 시 onClickButton 함수 실행
+                $input.addEventListener('input', onInput);
+            }
+
+            const onClickColorButton = (event) => {
+                themeColor = event.target.value;
+                if(themeColor === 'green'){
+                    document.querySelector('body').style.backgroundImage="url('./images/greenPatternbg.PNG')";
+                    document.querySelector('.container').style.backgroundColor = "#e0f8cc";
+                    document.querySelector('.item1').style.color = "#89bd55";
+                    document.querySelector('.item2').style.color = "#9CD366";
+                    document.querySelector('.item3').style.color = "#9CD366";
+                    document.querySelector('input').style.borderColor = "#c6eba2";
+                    document.querySelector('#order').style.color = "#89bd55";
+                    document.querySelector('#word').style.color = "#89bd55";
+                    document.querySelector('#inputBtn').style.setProperty('--c', "#89bd55");
+                }
+                else if(themeColor === 'blue'){
+                    document.querySelector('body').style.backgroundImage="url('./images/bluePatternbg.PNG')";
+                    document.querySelector('.container').style.backgroundColor = "#D5DFFF";
+                    document.querySelector('.item1').style.color = "#305BDA";
+                    document.querySelector('.item2').style.color = "#6E8ADD";
+                    document.querySelector('.item3').style.color = "#6E8ADD";
+                    document.querySelector('input').style.borderColor = "#AABBEE";
+                    document.querySelector('#order').style.color = "#305BDA";
+                    document.querySelector('#word').style.color = "#305BDA";
+                    document.querySelector('#inputBtn').style.setProperty('--c', "#305BDA");
+                }
+                else if(themeColor === 'purple'){
+                    document.querySelector('body').style.backgroundImage="url('./images/purplePatternbg.PNG')";
+                    document.querySelector('.container').style.backgroundColor = "#D8D1FF";
+                    document.querySelector('.item1').style.color = "#5F4FC6";
+                    document.querySelector('.item2').style.color = "#8B7DE2";
+                    document.querySelector('.item3').style.color = "#8B7DE2";
+                    document.querySelector('input').style.borderColor = "#ACA2EA";
+                    document.querySelector('#order').style.color = "#5F4FC6";
+                    document.querySelector('#word').style.color = "#5F4FC6";
+                    document.querySelector('#inputBtn').style.setProperty('--c', "#5F4FC6");
+                }
+            }
+
+            $greenButton.addEventListener('click', onClickColorButton);
+            $blueButton.addEventListener('click', onClickColorButton);
+            $purpleButton.addEventListener('click', onClickColorButton);
+        </script>
+    </body>
+</html>
