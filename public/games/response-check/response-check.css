@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: changeColor 2s infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: aqua;
+    }
+    100% {
+        background-color: greenyellow;
+    }
+}
+
+#screen {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    /*user-select -> 텍스트 드래그(선택)
+    none이면 드래그 불가능*/
+    user-select: none; 
+    margin: 30px;
+}
+
+@keyframes changeScreen {
+    0% {
+        width: 300px;
+        margin-left: 1000px;
+    }
+    33% {
+        width: 30px;
+        margin-right: 600px;
+    }
+    66% {
+        width: 150px;
+        margin-left: 600px;
+    }
+    100% {
+        width: 10px;
+        margin-right: 1000px;
+    }
+}
+
+.waiting, .ready {
+    background-color: aqua;
+}
+
+.now {
+    background-color: greenyellow;
+    animation: changeScreen 1.5s infinite alternate;
+}
+
+
+#text {
+    animation: moveText 2s infinite alternate;
+}
+
+@keyframes moveText {
+    0% {
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    20% {
+        margin-top: 120px;
+        margin-right: -20px;
+    }
+    40% {
+        margin-top: 60px;
+        margin-left: -50px;
+    }
+    60% {
+        margin-top: 150px;
+        margin-right: 40px;
+    }
+    80% {
+        margin-top: 3cqmin;
+    }
+    100% {
+        margin-top: 180px;
+        margin-left: 50px;
+    }
+}
+
+#result {
+    text-align: center;
+}
