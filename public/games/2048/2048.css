@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    background-color: #eee4da;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#return {
+    width: 75px;
+    height: 75px;
+    background-image: url('./images/undo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(245, 222, 179, 0);
+    border: 0;
+    margin-bottom: 20px;
+}
+
+#return:hover {
+    width: 100px;
+    height: 100px;
+}
+
+#table {
+    border-collapse: collapse;
+    user-select: none;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#table td {
+    border: 10px solid #bbada0; 
+    width: 116px; 
+    height: 128px;
+    font-size: 50px; 
+    font-weight: bold; 
+    text-align: center;
+}
+
+#score {
+    font-size: x-large;
+    font-weight: bold;
+    user-select: none;
+}
+
+.color-2 { background-color: #eee4da; color: #776e65; }
+.color-4 { background-color: #eee1c9; color: #776e65; }
+.color-8 { background-color: #f3b27a; color: white; }
+.color-16 { background-color: #f69664; color: white; }
+.color-32 { background-color: #f77c5f; color: white; }
+.color-64 { background-color: #f75f3b; color: white; }
+.color-128 { background-color: #edd073; color: #776e65; }
+.color-256 { background-color: #edcc62; color: #776e65; }
+.color-512 { background-color: #edc950; color: #776e65; }
+.color-1024 { background-color: #edc53f; color: #776e65; }
+.color-2048 { background-color: #edc22e; color: #776e65; }
