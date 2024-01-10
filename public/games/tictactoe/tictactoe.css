@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    td {
+        width: 250px;
+        height: 250px;
+        font-size: 70px;
+    }
+}
+  
+@media (min-width: 601px) and (max-width: 1024px) {
+    td {
+        width: 120px;
+        height: 120px;
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1025px) {
+    td {
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+    }
+}
+
+div {
+    font-size: 50px;
+}
