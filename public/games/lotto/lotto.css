@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'GongGothicBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes movebg {
+    0% {background-position: 0 center;}
+    100% {background-position: 100% center;}
+}
+
+body {
+    font-family: 'GongGothicBold';
+    margin: 0;
+    text-align: center;
+}
+
+div.z {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div#movingBg {
+    background-image: url('./images/lottobg.PNG');
+    background-repeat: repeat-x repeat-y;
+    background-size: 2170px;
+    animation: movebg 10s linear infinite; 
+    z-index: -2; 
+}
+
+div#line {
+    width: 98%;
+    height: 98%;
+    z-index: -1;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 0.85%;
+    margin-top: 0.3%;
+}
+
+#lotto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    color: rgb(214, 57, 57);
+    text-shadow: 6px 2px 2px gray;
+    font-size: 100px;
+    margin-bottom: 0.5%;
+}
+
+.item2, .item3 {
+    margin-top: 2%;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/lotto.png');
+    background-size: cover;
+    width: 425px;
+    height: 425px;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.ball {
+    background-size: auto 50px;
+    display: inline-block;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+/*버튼 템플릿 css*/
+button,
+button::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button {
+    font-family: 'GongGothicBold';
+    width: 200px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.774);
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #ffdd6d;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2px 6px;
+    position: relative;
+    text-transform: uppercase;
+}
+  
+button::before,
+button::after {
+background: #ffc400;
+content: '';
+position: absolute;
+z-index: -1;
+}
+
+button:hover {
+color: #ffa600;
+}
+
+button::after {
+height: 0;
+left: 50%;
+top: 50%;
+width: 0;
+}
+
+button:hover:after {
+height: 100%;
+left: 0;
+top: 0;
+width: 100%;
+}
