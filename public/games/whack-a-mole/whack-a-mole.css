@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/ground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+b {
+    color: tomato;
+}
+
+button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.cell {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: 'yellow';
+    overflow: hidden;
+}
+
+.gopher, .bomb {
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    position: absolute;
+    transition: bottom 1s;
+}
+
+.gopher {
+    background: url('./images/gopher.png') center center no-repeat;
+    background-size: 200px 200px;
+}
+
+.dead {
+    background: url('./images/dead_gopher.png') center center no-repeat;
+    background-size: 200px 200px;
+}
+
+.bomb {
+    background: url('./images/bomb.png') center center no-repeat;
+    background-size: 200px 200px;
+}
+
+.boom {
+    background: url('./images/explode.png') center center no-repeat;
+    background-size: 200px 200px;
+}
+
+.hidden {
+    bottom: -200px;
+}
+
+.hole {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    background: url('./images/mole-hole.png') center center no-repeat;
+    background-size: 200px 150px;
+}
