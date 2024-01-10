@@ -1,0 +1,49 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>텍스트 RPG</title>
+        <link rel="stylesheet" href="text-rpg.css">
+    </head>
+    <body>
+        <form id="start-screen">
+            <h1>Welcome to TEXT RPG</h1>
+            <div id="thumbnail"></div>
+            <input id="name-input" placeholder="닉네임을 입력하세요!" autocomplete="off">
+            <button class="button">Start</button>
+        </form>
+        <div id="screen">
+            <div id="hero-stat">
+                <div id="hero-name"></div>
+                <div id="hero-level"></div>
+                <div id="hero-hp"></div>
+                <div id="hero-xp"></div>
+                <div id="hero-att"></div>
+            </div>
+            <form id="game-menu" style="display: none;">
+                <div id="menu-1">1. 모험</div>
+                <div id="menu-2">2. 휴식</div>
+                <div id="menu-3">3. 종료</div>
+                <div class="inputBtnContainer">
+                    <input id="menu-input" autocomplete="off">
+                    <button class="button">입력</button>
+                </div>
+            </form>
+            <form id="battle-menu" style="display: none;">
+                <div id="battle-1">1. 공격</div>
+                <div id="battle-2">2. 회복</div>
+                <div id="battle-3">3. 도망</div>
+                <div class="inputBtnContainer">
+                    <input id="battle-input" autocomplete="off">
+                    <button class="button">입력</button>
+                </div>
+            </form>
+            <div id="message"></div>
+            <div id="monster-stat">
+                <div id="monster-name"></div>
+                <div id="monster-hp"></div>
+                <div id="monster-att"></div>
+            </div>
+        </div>
+        <script src="text-rpg.js"></script>
+    </body>
+</html>
