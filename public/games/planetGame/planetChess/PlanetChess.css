@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+/*---------------keyframes---------------*/
+@keyframes canMoveCells {
+    0% {background-color: #161547b6;}
+    100% {background-color: #846286b6;};
+}
+
+@keyframes canSkillCells {
+    0% {background-color: #161547b6}
+    100% {background-color: #b3b2b2b6};
+}
+
+/*---------------chessGameContainer css---------------*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#chessGameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url('./images/Bg.png');
+    background-size: 50vw 100vh;
+}
+
+/*---------------log css---------------*/
+#log {
+    font-family: 'Staatliches', cursive;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4.2vw;
+}
+
+#log1P, #log2P {
+    width: 50%;
+    text-align: center;
+    line-height: 4.2vw; /* 한 줄일 경우에만 수직 정렬 가능 */
+    border: solid 4px;
+    border-color: #ffffff;
+}
+
+#log1P {
+    background-color: #f3faffd3;
+    border-right: 2px;
+    color: #6F819C;
+    text-shadow: 0.3vw 0.3vw #ffffff;
+}
+
+#log2P {
+    background-color: #6F819Cd3;
+    color: #9e9e9e;
+    text-shadow: 0.3vw 0.3vw #ffffff;
+}
+
+/*---------------skill css---------------*/
+[id^="skill"] {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 9vw;
+    height: 30vw;
+    border: solid 4px;
+    border-color: #ffffff;
+}
+
+[id^="skill_1P"]{
+    background-color: #6f819cc5;
+    background-size: 20vw 40vw;
+    border-top: 0;
+    border-right: 0;
+    top: -7.5vw;
+    background-color: #6F819Cd3;
+}
+
+[id^="skill_2P"]{
+    background-color: #f3faffc2;
+    background-size: 20vw 40vw;
+    border-left: 0;
+    top: 7.4vw;
+    background-color: #f3faffd3;
+}
+
+[class^="skill"] {
+    position: relative;
+    width: 8vw;
+    height: 7vw;
+}
+
+[class*="Sun"].chance1 {
+    background: url('./images/planet/sunChance1.png') no-repeat center center;
+    background-size: 100%;
+}
+[class*="Sun"].chance0 {
+    background: url('./images/planet/sunChance0.png') no-repeat center center;
+    background-size: 100%;
+}
+
+
+[class*="Saturn"].chance3 {
+    background: url('./images/planet/saturnChance3.png') no-repeat center center;
+    background-size: 100%;
+}
+[class*="Saturn"].chance2 {
+    background: url('./images/planet/saturnChance2.png') no-repeat center center;
+    background-size: 100%;
+}
+[class*="Saturn"].chance1 {
+    background: url('./images/planet/saturnChance1.png') no-repeat center center;
+    background-size: 100%;
+}
+[class*="Saturn"].chance0 {
+    background: url('./images/planet/saturnChance0.png') no-repeat center center;
+    background-size: 100%;
+}
+
+
+[class*="Uranus"].chance2 {
+    background: url('./images/planet/uranusChance2.png') no-repeat center center;
+    background-size: 100%;
+}
+[class*="Uranus"].chance1 {
+    background: url('./images/planet/uranusChance1.png') no-repeat center center;
+    background-size: 100%;
+}
+[class*="Uranus"].chance0 {
+    background: url('./images/planet/uranusChance0.png') no-repeat center center;
+    background-size: 100%;
+}
+
+
+[class*="Neptune"].chance1 {
+    background: url('./images/planet/neptuneChance1.png') no-repeat center center;
+    background-size: 100%;
+}
+[class*="Neptune"].chance0 {
+    background: url('./images/planet/neptuneChance0.png') no-repeat center center;
+    background-size: 100%;
+}
+
+/*---------------chessGame css---------------*/
+#chessBoard {
+    width: 45vw;
+    height: 45vw;
+    border: solid 4px;
+    border-color: rgb(255, 255, 255);
+    border-top: 0;
+    text-align: center;
+    background-image: url('./images/chessBoardBg.png');
+    background-size: contain;
+}
+
+#chessGame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+[class^="row"] {
+    width: 100%;
+    height: 10%;
+    background-color: #566270c5;
+}
+
+[class^="cell"] {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+}
+
+.canMove {
+    width: 100%;
+    height: 100%;
+    animation: canMoveCells 2s alternate linear infinite;
+}
+
+.canSkill {
+    width: 100%;
+    height: 100%;
+    animation: canSkillCells 2s alternate linear infinite;
+}
+
+[class^="row"]:nth-of-type(odd)>[class^="cell"]:nth-of-type(odd) {
+    background-color: #fffff3a8;
+}
+
+[class^="row"]:nth-of-type(even)>[class^="cell"]:nth-of-type(even) {
+    background-color: #FFFFF3a8;
+}
+
+
+/*---------------chessMan css---------------*/
+
+
+.jupiter.turn1P {
+    background: url('./images/planet/jupiter1P.png') no-repeat center center;
+    background-size: 90%;
+}
+.jupiter.turn2P {
+    background: url('./images/planet/jupiter2P.png') no-repeat center center;
+    background-size: 90%;
+}
+
+.mars.turn1P {
+    background: url('./images/planet/mars1P.png') no-repeat center center;
+    background-size: 90%;
+}
+.mars.turn2P {
+    background: url('./images/planet/mars2P.png') no-repeat center center;
+    background-size: 90%;
+}
+
+.venus.turn1P {
+    background: url('./images/planet/venus1P.png') no-repeat center center;
+    background-size: 90%;
+}
+.venus.turn2P {
+    background: url('./images/planet/venus2P.png') no-repeat center center;
+    background-size: 90%;
+}
+
+.pluto.turn1P {
+    background: url('./images/planet/pluto1P.png') no-repeat center center;
+    background-size: 90%;
+}
+.pluto.turn2P {
+    background: url('./images/planet/pluto2P.png') no-repeat center center;
+    background-size: 90%;
+}
+
+.earth.turn1P { 
+    background: url('./images/planet/earth1P.png') no-repeat center center;
+    background-size: 90%;
+}
+.earth.turn2P { 
+    background: url('./images/planet/earth2P.png') no-repeat center center;
+    background-size: 90%;
+}
+
+.moon.turn1P {
+    background: url('./images/planet/moon1P.png') no-repeat center center;
+    background-size: 90%;
+}
+.moon.turn2P {
+    background: url('./images/planet/moon2P.png') no-repeat center center;
+    background-size: 90%;
+}
+
+.mercury.turn1P {
+    background: url('./images/planet/mercury1P.png') no-repeat center center;
+    background-size: 90%;
+}
+.mercury.turn2P {
+    background: url('./images/planet/mercury2P.png') no-repeat center center;
+    background-size: 90%;
+}
+
+.PlutoAndMercury.turn1P {
+    background: url('./images/planet/plumer1P.png') no-repeat center center;
+    background-size: 90%;
+}
+.PlutoAndMercury.turn2P {
+    background: url('./images/planet/plumer2P.png') no-repeat center center;
+    background-size: 90%;
+}
+
+.mouseover {
+    box-sizing: border-box;
+    border: dashed 4px;
+    border-color: rgb(255, 255, 255);
+    background-size: 100%;
+}
+
+.click {
+    box-sizing: border-box;
+    border: solid 4px;
+    border-color: rgb(255, 255, 255);
+    background-size: 100%;
+}
+
+/* 체스 말, 스킬 설명 */
+.leftExplain, .rightExplain {
+    position: fixed;
+    width: 16.5vw;
+    height: 35vh;
+    background-color: rgba(255, 255, 255, 0.515);
+    border-radius: 10px;
+    padding: 2px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.leftExplain {
+    top: 10vh;
+    left: 0.5vw;
+    text-align: left;
+    background-image: url('./images/leftExplain.png');
+}
+
+.rightExplain {
+    bottom: 1vh;
+    right: 0.5vw;
+    text-align: right;
+    background-image: url('./images/rightExplain.png');
+}

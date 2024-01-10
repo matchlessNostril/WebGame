@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@keyframes movebg {
+    0% {background-position: 0px center; }
+    100% {background-position: -200px center; }
+}
+
+html {
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    margin: 0;
+    background: url('./nightsky.png') 0 center / 100% repeat-x;
+    animation: movebg 30s linear infinite;
+    background-size: cover;
+    font-family: 'Abel', sans-serif;
+}
+
+div:not(.container .row .item .others) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+img.num1 {
+    width: 95px;
+    height: 95px;
+}
+
+img.num2 {
+    width: 85px;
+    height: 85px;
+}
+
+img.num3 {
+    width: 75px;
+    height: 75px;
+}
+
+img.num4 {
+    width: 65px;
+    height: 65px;
+}
+
+img.num5 {
+    width: 55px;
+    height: 55px;
+}
+
+img.num6 {
+    width: 35px;
+    height: 35px;
+}
+
+img.num7 {
+    width: 45px;
+    height: 45px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; /* default value*/
+    /* flex-flow: column nowrap; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 50px;
+}
+
+.item {
+    /* border: 1px solid white; */
+    width: 5%;
+    height: 100%;
+    text-align: center;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+}
+
+.rubric {
+    padding: 0px;
+}
+
+button {
+    position: sticky;
+    border-color: white;
+    border-radius: 50px;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: Transparent;
+    font-family: 'Abel', sans-serif;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.score {
+    color: white;
+    font-size: 25px;
+}
+
+.second {
+    font-size: 40px;
+}
+
+.others {
+    text-align: right;
+    margin: 0px;   
+    padding: 0px;
+}
+
+.others span {
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+}
