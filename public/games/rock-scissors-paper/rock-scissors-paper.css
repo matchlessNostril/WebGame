@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Dokdo', system-ui;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#computer {
+    width: 284px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px;
+    box-shadow: 0 0 20px 10px rgba(102, 186, 255, 0.4);
+    animation: changeColor 2s infinite alternate;
+}
+
+#btnContainer {
+    margin: 20px;
+}
+
+.btn {
+    width: 75px;
+    height: 75px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+    background-color: white;
+    margin: 10px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.4);
+}
+
+#scissors {
+    background-image: url('./images/scissors.PNG');
+}
+
+#rock {
+    background-image: url('./images/rock.PNG');
+}
+
+#paper {
+    background-image: url('./images/paper.PNG');
+}
+
+@keyframes changeColor {
+    0% {
+        box-shadow: 0 0 20px 10px rgb(195, 107, 107, 0.4);
+    }
+    50%{
+        box-shadow: 0 0 20px 10px rgba(195, 188, 107, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 20px 10px rgba(102, 186, 255, 0.4); /* 빨간색으로 변경 */
+    }
+}
+
+#text {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 90px;
+    }
+
+    #text {
+        font-size: 60px;
+    }
+}
+  
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    #text {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    #text {
+        font-size: 30px;
+    }
+}
