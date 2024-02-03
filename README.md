@@ -24,10 +24,10 @@
 ## 📌 게임 리스트
 
 - [Link To WebSite](https://soru-webgame.web.app/)
-<div>
-  <b>끝말잇기</b>
-  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/184b8ffd-633c-4fdc-be95-987b1c36774d" width="590px" height="366px" />
-</div>
+<ul>
+  <li><b>끝말잇기</b></li>
+  <li><img src="https://github.com/matchlessNostril/WebGame/assets/144131324/184b8ffd-633c-4fdc-be95-987b1c36774d" width="590px" height="366px" /></li>
+</ul>
 <div>
   <b>숫자 야구</b>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/f62b66b2-b0d5-45fb-b685-ff13738f946f" width="590px" height="366px" />
