@@ -51,4 +51,4 @@
     ![planet-click](https://github.com/matchlessNostril/WebGame/assets/144131324/0132e537-5fd7-40aa-849f-8bd7f8454cf4)
 
 - - 행성 체스
-    ![planet-chess](https://github.com/matchlessNostril/WebGame/assets/144131324/c0078d08-a203-469e-898b-5dd51ee778fd){: width="590px" height="366px"}
+    ![planet-chess](https://github.com/matchlessNostril/WebGame/assets/144131324/c0078d08-a203-469e-898b-5dd51ee778fd){: width="590" height="366"}
