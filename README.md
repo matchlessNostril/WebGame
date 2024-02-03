@@ -4,6 +4,8 @@
 
 ### 🕐 개발 기간
 
+- `22.07 - 22.08`
+
 ### 📚 사용 언어
 
 <div>
@@ -12,6 +14,11 @@
   <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=JavaScript&logoColor=white&fontColor=black" />
 </div>
 
+---
+
 ### ✔️ 사용 가능 디바이스
+
+- `Laptop`
+- `Desktop`
 
 ### 📌 미니 게임 소개
