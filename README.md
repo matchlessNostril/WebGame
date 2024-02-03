@@ -25,31 +25,40 @@
 
 - [Link To WebSite](https://soru-webgame.web.app/)
 - 끝말잇기
-  ![word-relay](https://github.com/matchlessNostril/WebGame/assets/144131324/184b8ffd-633c-4fdc-be95-987b1c36774d)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/184b8ffd-633c-4fdc-be95-987b1c36774d" width="590px" height="366px" />
+
 - 숫자 야구
-  ![number-baseball](https://github.com/matchlessNostril/WebGame/assets/144131324/f62b66b2-b0d5-45fb-b685-ff13738f946f)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/f62b66b2-b0d5-45fb-b685-ff13738f946f" width="590px" height="366px" />
+
 - 로또
-  ![lotto](https://github.com/matchlessNostril/WebGame/assets/144131324/55263153-ca30-438d-afdf-5559ae445bd0)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/55263153-ca30-438d-afdf-5559ae445bd0" width="590px" height="366px" />
+
 - 가위 바위 보
-  ![rock-scissors-paper](https://github.com/matchlessNostril/WebGame/assets/144131324/15ff8762-d67a-4530-9feb-cbe179e348b1)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/15ff8762-d67a-4530-9feb-cbe179e348b1" width="590px" height="366px" />
+
 - 집중력
-  ![response-check](https://github.com/matchlessNostril/WebGame/assets/144131324/6a899d21-dc01-4417-be83-1e646db70d27)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/6a899d21-dc01-4417-be83-1e646db70d27" width="590px" height="366px" />
+
 - 틱택토
-  ![tictactoe](https://github.com/matchlessNostril/WebGame/assets/144131324/f4080e08-8a94-4643-9f6b-2733ce977eb3)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/f4080e08-8a94-4643-9f6b-2733ce977eb3" width="590px" height="366px" />
+
 - 텍스트 RPG
-  ![text-rpg](https://github.com/matchlessNostril/WebGame/assets/144131324/7a28c2a3-95a9-4d9b-87c4-f3ff1669af9d)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/7a28c2a3-95a9-4d9b-87c4-f3ff1669af9d" width="590px" height="366px" />
+
 - 카드 짝 맞히기
-  ![card-concentration](https://github.com/matchlessNostril/WebGame/assets/144131324/5d2ee722-5194-4049-b001-d906b4f2937f)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/5d2ee722-5194-4049-b001-d906b4f2937f" width="590px" height="366px" />
+
 - 지뢰 찾기
-  ![mine-sweeper](https://github.com/matchlessNostril/WebGame/assets/144131324/96593473-1730-436b-bd2e-77359622137f)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/96593473-1730-436b-bd2e-77359622137f" width="590px" height="366px" />
+
 - 2048
-  ![2048](https://github.com/matchlessNostril/WebGame/assets/144131324/7bad6b36-9a95-452b-a5ab-26f1cb04e1aa)
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/7bad6b36-9a95-452b-a5ab-26f1cb04e1aa" width="590px" height="366px" />
+
 - 두더지 잡기
-  ![whack-a-mole](https://github.com/matchlessNostril/WebGame/assets/144131324/7f1a53b4-12a7-4c1a-8822-7d825435d2d8)
-- 행성
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/7f1a53b4-12a7-4c1a-8822-7d825435d2d8" width="590px" height="366px" />
 
-  - 행성 클릭
-    ![planet-click](https://github.com/matchlessNostril/WebGame/assets/144131324/0132e537-5fd7-40aa-849f-8bd7f8454cf4)
+- 행성 클릭
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/0132e537-5fd7-40aa-849f-8bd7f8454cf4" width="590px" height="366px" />
 
-  - 행성 체스
-    <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/c0078d08-a203-469e-898b-5dd51ee778fd" width="590px" height="366px" />
+- 행성 체스
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/c0078d08-a203-469e-898b-5dd51ee778fd" width="590px" height="366px" />
