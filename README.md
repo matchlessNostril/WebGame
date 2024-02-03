@@ -47,8 +47,9 @@
 - 두더지 잡기
   ![whack-a-mole](https://github.com/matchlessNostril/WebGame/assets/144131324/7f1a53b4-12a7-4c1a-8822-7d825435d2d8)
 - 행성
-- - 행성 클릭
+
+  - 행성 클릭
     ![planet-click](https://github.com/matchlessNostril/WebGame/assets/144131324/0132e537-5fd7-40aa-849f-8bd7f8454cf4)
 
-- - 행성 체스
-    ![planet-chess](https://github.com/matchlessNostril/WebGame/assets/144131324/c0078d08-a203-469e-898b-5dd51ee778fd){: width="590" height="366"}
+  - 행성 체스
+    ![planet-chess](https://github.com/matchlessNostril/WebGame/assets/144131324/c0078d08-a203-469e-898b-5dd51ee778fd){:width="590px" height="366px"}
