@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=FF6363&height=200&section=header&text=JavaScript%20Web%20Game&fontSize=50&fontColor=white)
+![header](https://capsule-render.vercel.app/api?type=waving&color=FF6363&height=200&section=header&text=JavaScript%20Web%20Game&fontSize=50&fontColor=FFFFFF)
 
 ### 💻 프로젝트 소개
 
