@@ -26,7 +26,7 @@
 - [Link To WebSite](https://soru-webgame.web.app/)
 <ul>
   <li><b>끝말잇기</b></li>
-  <li><img src="https://github.com/matchlessNostril/WebGame/assets/144131324/184b8ffd-633c-4fdc-be95-987b1c36774d" width="590px" height="366px" /></li>
+  <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/184b8ffd-633c-4fdc-be95-987b1c36774d" width="590px" height="366px" />
 </ul>
 <div>
   <b>숫자 야구</b>
