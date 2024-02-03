@@ -29,50 +29,26 @@
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/184b8ffd-633c-4fdc-be95-987b1c36774d" width="590px" height="366px" />
   <li><b>숫자 야구</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/f62b66b2-b0d5-45fb-b685-ff13738f946f" width="590px" height="366px" />
-</ul>
-<!-- <ul>
-</ul> -->
-<ul>
   <li><b>로또</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/55263153-ca30-438d-afdf-5559ae445bd0" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>가위 바위 보</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/15ff8762-d67a-4530-9feb-cbe179e348b1" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>집중력</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/6a899d21-dc01-4417-be83-1e646db70d27" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>틱택토</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/f4080e08-8a94-4643-9f6b-2733ce977eb3" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>텍스트 RPG</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/7a28c2a3-95a9-4d9b-87c4-f3ff1669af9d" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>카드 짝 맞히기</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/5d2ee722-5194-4049-b001-d906b4f2937f" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>지뢰 찾기</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/96593473-1730-436b-bd2e-77359622137f" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>2048</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/7bad6b36-9a95-452b-a5ab-26f1cb04e1aa" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>두더지 잡기</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/7f1a53b4-12a7-4c1a-8822-7d825435d2d8" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>행성 클릭</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/0132e537-5fd7-40aa-849f-8bd7f8454cf4" width="590px" height="366px" />
-</ul>
-<ul>
   <li><b>행성 체스</b></li>
   <img src="https://github.com/matchlessNostril/WebGame/assets/144131324/c0078d08-a203-469e-898b-5dd51ee778fd" width="590px" height="366px" />
 </ul>
